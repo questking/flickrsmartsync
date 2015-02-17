@@ -176,7 +176,7 @@ class Remote(object):
             # (Optional) A description of the photo. May contain some limited HTML.
             'description': folder,
             # (Optional) Set to 0 for no, 1 for yes. Specifies who can view the photo.
-            'is_public': 0,
+            'is_public': 1,
             'is_friend': 0,
             'is_family': 0,
             # (Optional) Set to 1 for Safe, 2 for Moderate, or 3 for Restricted.
